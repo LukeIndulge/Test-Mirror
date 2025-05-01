@@ -36,4 +36,4 @@ host('chipmunk.indulgemedia.co.uk')
 
 after('deploy:failed', 'deploy:unlock');
 after('deploy:update_code', 'deploy:vendors');
-//after('deploy:vendors', 'deploy:build_assets');
+after('deploy:vendors', 'deploy:build_assets');
