@@ -1,0 +1,16 @@
+{
+    "name": "lukeoliver/deployer-example",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luke Oliver",
+            "email": "luke@indulgemedia.com"
+        }
+    ],
+    "require": {}
+}
